@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(224, 212, 212);
+}
+
+.nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(86, 15, 15);
+    color: white;
+}
+
+a{
+    color: aliceblue;
+}
+.logo{
+    width: 20px;
+}
+
+.text{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 400px;
+
+}
+
+.user{
+    width: 30%;
+    display: flex;
+    margin-left: 160px;
+}
+
+.user>h2{
+    margin-left: 50px;
+}
